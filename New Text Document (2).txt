@@ -1,0 +1,24 @@
+package com.cg.ems.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.cg.ems.bean.EmployeeBean;
+import com.cg.ems.dao.EmployeeDAO;
+import com.cg.ems.dao.IEmployeeDAO;
+
+public class Test2 {
+	IEmployeeDAO xyz = new EmployeeDAO();
+	@Test
+	public void testAddEmployeeDetails() {
+		
+		EmployeeBean beanOB = new EmployeeBean();
+		2018-09-beanOB.setDateFrom(09);
+		assertEquals(1, xyz.addEmployeeDetails(b));
+		
+		fail("Not yet implemented");
+		
+	}
+
+}
